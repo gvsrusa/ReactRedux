@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import user from "./images/user.png";
 import "./App.css";
 import {createStore} from 'redux';
-import reducer from './reducers/Reducer'
+import reducer from './reducers'
 
 const initialState = {
   name: "Alex Bakery",

@@ -22,7 +22,7 @@ body {
 .hello-world:before {
   position: absolute;
   content: "";
-  top: -600%;
+  top: -550%;
   height: 600%; /* 6X of .hello-world */
   width: 100%;
   background: url("images/hello.svg") 50% 50% / contain no-repeat;
@@ -42,3 +42,4 @@ body {
   font-weight: 700;
   font-style: italic;
 }
+
