@@ -25,8 +25,8 @@ export class App extends Component {
   render() {
     return(
       <div>
-        <StoplightContainer store={this.props.store}/>
-        <ButtonContainer store={this.props.store}/>
+        <StoplightContainer />
+        <ButtonContainer />
       </div>
     )
   }
